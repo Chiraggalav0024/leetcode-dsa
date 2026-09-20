@@ -36,6 +36,9 @@ class SinglyLinkedList{
         }
     }
     void push_front(int value){
+        Node*a = new Node(value);
+        a->next = head->next;
+        head = a;
         
     }
     
@@ -44,7 +47,9 @@ class SinglyLinkedList{
 
 int main(){
     SinglyLinkedList list;
-
+    list.push_front(30);
+    list.push_front(20);
+    list.push_front(10);
     list.print();
     return 0;
 }
