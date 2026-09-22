@@ -1,0 +1,14 @@
+# C++ build files
+build/
+
+# C++ object files
+*.o
+
+# GCC default executable
+a.out
+
+# Other compiler output
+*.out
+
+# JetBrains IDE files
+.idea/
