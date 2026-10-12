@@ -21,10 +21,22 @@ int main(){
     }
     cout << endl;
 
+    sort(a.begin(), a.end());
+
     auto x = lower_bound(a.begin(), a.end(), 0);
     auto y = upper_bound(a.begin(), a.end(), 0);
 
     cout << "total number of 0:" << " " << y-x << endl;
+
+    for (auto it = arr.begin(); it < arr.end(); it++){
+        cout << (*it += 1) << " ";
+    }
+    cout << endl;
+
+    for (auto c : arr){
+        cout << c << " ";
+    }
+    cout << endl;
 
 }
 
