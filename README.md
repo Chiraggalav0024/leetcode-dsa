@@ -5,8 +5,8 @@ PHASE 1 — ARRAYS & HASHING
 1. Two Sum — LeetCode #1
 2. Contains Duplicate — #217
 3. Valid Anagram — #242
-4. Group Anagrams — #49
-5. Top K Frequent Elements — #347
+*4. Group Anagrams — #49
+*5. Top K Frequent Elements — #347
 6. Product of Array Except Self — #238
 7. Valid Sudoku — #36
 8. Longest Consecutive Sequence — #128
